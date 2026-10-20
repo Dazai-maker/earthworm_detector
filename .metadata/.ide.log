@@ -1,0 +1,4 @@
+2026-10-12 08:13:42,152 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 8:13:42.149 ERROR Chromium process exit code: 139
+2026-10-12 08:13:42,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2026-10-12 08:13:42,156 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 8:13:42.155 ERROR Crash dump dir: /home/alvaro/.config/jxbrowser/7.41.4/crash-reports
+2026-10-12 08:13:42,156 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
