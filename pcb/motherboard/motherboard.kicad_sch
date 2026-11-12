@@ -10500,6 +10500,16 @@
 		)
 		(uuid "16594afd-d2d7-45d7-9bbf-2891b308a366")
 	)
+	(text "MISO/D12"
+		(exclude_from_sim no)
+		(at 138.684 374.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "227752b8-2980-4e9c-a9b2-71054625aa80")
+	)
 	(text "Mounting holes\n"
 		(exclude_from_sim no)
 		(at 162.052 65.024 0)
@@ -10509,6 +10519,16 @@
 			)
 		)
 		(uuid "2598d923-2f5b-4935-9382-2af770b99a64")
+	)
+	(text "SDA/D14"
+		(exclude_from_sim no)
+		(at 138.176 385.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33dcdeb9-0fdb-4215-8078-27af19454eef")
 	)
 	(text "STM32F746NGHx"
 		(exclude_from_sim no)
@@ -10529,6 +10549,16 @@
 			)
 		)
 		(uuid "513c7a5a-f16e-40a2-8e44-393f53470dcf")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 136.144 379.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "693d4fcb-5b7d-470e-8384-23e2c284eb23")
 	)
 	(text "PWM/D3"
 		(exclude_from_sim no)
@@ -10630,6 +10660,26 @@
 		)
 		(uuid "a7e3fb89-038b-466e-a47e-45d84733d207")
 	)
+	(text "SCL/D15"
+		(exclude_from_sim no)
+		(at 138.176 387.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acf5a1c6-c477-413c-a492-b06fd3892937")
+	)
+	(text "SCK/D13"
+		(exclude_from_sim no)
+		(at 138.43 377.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7e1f462-5194-4a9e-a3fd-c0b940c71df6")
+	)
 	(text "PWM/CS/D10"
 		(exclude_from_sim no)
 		(at 140.208 370.078 0)
@@ -10660,6 +10710,16 @@
 		)
 		(uuid "cccfdda8-176e-417b-8d91-fa0483c146a8")
 	)
+	(text "AVDD"
+		(exclude_from_sim no)
+		(at 136.5137 382.4972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ceee25cf-117a-46ca-b043-3e428da1ef64")
+	)
 	(text "D2"
 		(exclude_from_sim no)
 		(at 134.874 349.504 0)
@@ -10680,9 +10740,9 @@
 		)
 		(uuid "ef518da5-7510-48ff-a3d4-4f858d4bde45")
 	)
-	(text "VGA connector\n\n\n\n"
+	(text "HDMI Connector"
 		(exclude_from_sim no)
-		(at 78.74 74.422 0)
+		(at 77.978 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11354,6 +11414,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 382.27) (xy 127 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb835fa-91c3-4534-acdb-95593bd02a95")
+	)
+	(wire
+		(pts
 			(xy 273.05 73.66) (xy 394.97 73.66)
 		)
 		(stroke
@@ -11421,6 +11491,16 @@
 			(type default)
 		)
 		(uuid "2e3e441c-effb-46f9-9d5b-78b8a4f63fa2")
+	)
+	(wire
+		(pts
+			(xy 96.52 382.27) (xy 107.95 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8b3cd2-372c-46aa-bb19-911ec6f14d62")
 	)
 	(wire
 		(pts
@@ -13056,6 +13136,28 @@
 			)
 		)
 	)
+	(global_label "VREF+"
+		(shape input)
+		(at 96.52 382.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1917ac9a-f170-46ba-8f2b-c3c026a89389")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.3662 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_B5"
 		(shape input)
 		(at 328.93 134.62 180)
@@ -13232,6 +13334,28 @@
 			)
 		)
 	)
+	(global_label "LCD_VSYNC"
+		(shape input)
+		(at 123.19 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23a9bbbe-ba7b-4c30-b524-71fbafa923a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6981 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "G_RPI"
 		(shape input)
 		(at 74.93 33.02 90)
@@ -13360,6 +13484,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_DE"
+		(shape input)
+		(at 123.19 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f3ecdd3-e526-479f-8d85-917a18e21b45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1299 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 123.19 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "331b9415-f8d8-439c-a632-95ebb820b8e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6828 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14464,6 +14632,28 @@
 			)
 		)
 	)
+	(global_label "VSS"
+		(shape input)
+		(at 127 379.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b265e02-e7c1-4d20-ad17-d7b4f57fb143")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.5072 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_B3"
 		(shape input)
 		(at 123.19 186.69 0)
@@ -14834,6 +15024,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_CLK"
+		(shape input)
+		(at 123.19 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae08f480-efeb-4960-b4ab-1b17c7a3d40b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.279 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15278,6 +15490,28 @@
 			)
 		)
 	)
+	(global_label "LCD_HSYNC"
+		(shape input)
+		(at 123.19 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7bc0dbe-3769-44d1-b0bf-9ace885918f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_G4"
 		(shape input)
 		(at 328.93 175.26 180)
@@ -15516,6 +15750,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS"
+		(shape input)
+		(at 165.1 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee3675ec-0534-469b-93d4-3333459ae052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 134.4772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15947,6 +16203,83 @@
 			(project "motherboard"
 				(path "/d59e4acd-18c6-4b35-a924-8f0ac7af2f47"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:0_0603")
+		(at 110.49 382.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ca1598-eb97-4ac8-9e21-fc48d78674e1")
+		(property "Reference" "R16"
+			(at 110.49 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 110.49 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 110.49 386.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 110.49 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-08609"
+			(at 110.49 389.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05b350a2-11ba-4efb-8f81-35dab9a43c28")
+		)
+		(pin "1"
+			(uuid "eaca682f-cb22-4cbb-a2f9-e633844faee3")
+		)
+		(instances
+			(project "motherboard"
+				(path "/d59e4acd-18c6-4b35-a924-8f0ac7af2f47"
+					(reference "R16")
 					(unit 1)
 				)
 			)
