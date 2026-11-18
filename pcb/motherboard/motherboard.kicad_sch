@@ -9379,6 +9379,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Resistor:20k_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "20k"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "RES-09383"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "20k_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "20k_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_fab:Conn_USB_miniB_Socket_CUIDevices_UJ2-MBH-1-SMT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11828,6 +11974,12 @@
 		(uuid "d7452ec7-6ce9-45ad-88db-5bdd6c46f71e")
 	)
 	(junction
+		(at 57.15 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc4fa2f-dec4-44bc-abae-c51a3306ace4")
+	)
+	(junction
 		(at 107.95 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11900,8 +12052,116 @@
 		(uuid "fef326a2-2b85-4067-a29f-815eb670c4da")
 	)
 	(no_connect
+		(at 408.94 285.75)
+		(uuid "11d3998e-f3c1-453f-899b-76b6d94a61ff")
+	)
+	(no_connect
+		(at 408.94 278.13)
+		(uuid "192cdf98-6c32-409d-8dd6-3588a5796f22")
+	)
+	(no_connect
+		(at 408.94 280.67)
+		(uuid "2d2836d3-e87b-488d-ac07-666aa664a0ea")
+	)
+	(no_connect
+		(at 408.94 273.05)
+		(uuid "31e984d4-23e2-49e2-8263-1e6422e152d0")
+	)
+	(no_connect
 		(at 88.9 346.71)
 		(uuid "3c5d519a-4502-4ec1-8deb-69efd8bb01c8")
+	)
+	(no_connect
+		(at 408.94 260.35)
+		(uuid "4c2cdf17-d8e0-4f7d-b320-7ffb55083861")
+	)
+	(no_connect
+		(at 408.94 283.21)
+		(uuid "4e3e2744-67bd-478a-8bd6-0c108ccfa09a")
+	)
+	(no_connect
+		(at 408.94 250.19)
+		(uuid "59922a0f-db61-483c-b8dd-4f6ca3bc486b")
+	)
+	(no_connect
+		(at 408.94 245.11)
+		(uuid "60da3d1e-f019-4ca0-be61-b7c5fb629d6d")
+	)
+	(no_connect
+		(at 408.94 232.41)
+		(uuid "6dba317e-1fe1-43f1-8854-b6f19309872d")
+	)
+	(no_connect
+		(at 408.94 257.81)
+		(uuid "76c5d41f-c3af-42cf-a2b4-3a1a8570e495")
+	)
+	(no_connect
+		(at 408.94 234.95)
+		(uuid "782f1622-223b-4ce4-b79d-7d24d341a3da")
+	)
+	(no_connect
+		(at 408.94 290.83)
+		(uuid "841fe3f2-6ff8-4652-a8b7-67c6ce3dd98d")
+	)
+	(no_connect
+		(at 408.94 262.89)
+		(uuid "8ede67c9-73a3-490c-8d36-446b8b5e6191")
+	)
+	(no_connect
+		(at 408.94 295.91)
+		(uuid "9609662f-aee0-4a1e-8ba5-9704d1880729")
+	)
+	(no_connect
+		(at 408.94 275.59)
+		(uuid "9be6cead-3514-4b91-8309-95bb63a3ccd1")
+	)
+	(no_connect
+		(at 408.94 252.73)
+		(uuid "9d5a05e8-e6af-475a-b97c-a831bf3d52fc")
+	)
+	(no_connect
+		(at 408.94 267.97)
+		(uuid "a4d65554-fecd-424c-89c8-624e0661a230")
+	)
+	(no_connect
+		(at 408.94 293.37)
+		(uuid "a69d2bc0-a197-4c8a-a1cd-c6e3492b5d9e")
+	)
+	(no_connect
+		(at 408.94 242.57)
+		(uuid "b7787322-b6c2-4375-b867-c8b13d24e76b")
+	)
+	(no_connect
+		(at 408.94 240.03)
+		(uuid "c71b331d-a55f-46ef-9a06-592347bbb7e9")
+	)
+	(no_connect
+		(at 408.94 247.65)
+		(uuid "ccbd2c06-3070-4fdc-afb4-717a379a993e")
+	)
+	(no_connect
+		(at 408.94 265.43)
+		(uuid "cd945f75-d54e-43b0-a462-54e1c8aeeeb9")
+	)
+	(no_connect
+		(at 408.94 300.99)
+		(uuid "d3f5ed72-94f1-491d-921d-cd4c317d9bfe")
+	)
+	(no_connect
+		(at 408.94 237.49)
+		(uuid "d6d223d5-f61a-45ce-9087-0be6a68d43b7")
+	)
+	(no_connect
+		(at 408.94 255.27)
+		(uuid "e174284d-a7ca-45ed-bc81-2e25ea9ee073")
+	)
+	(no_connect
+		(at 408.94 298.45)
+		(uuid "fca9c345-e2a4-416a-a582-51560a9e4b68")
+	)
+	(no_connect
+		(at 408.94 288.29)
+		(uuid "ffe8bfba-ba8f-46ba-a551-88df59c65baa")
 	)
 	(wire
 		(pts
@@ -12855,7 +13115,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 113.03) (xy 158.75 113.03)
+			(xy 148.59 113.03) (xy 158.75 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13785,7 +14045,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 123.19 113.03)
+			(xy 140.97 113.03) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -14055,6 +14315,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 16.51) (xy 57.15 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4128acb-1dd1-4dca-a050-0734b0e2e2f4")
+	)
+	(wire
+		(pts
 			(xy 408.94 318.77) (xy 400.05 318.77)
 		)
 		(stroke
@@ -14122,6 +14392,16 @@
 			(type default)
 		)
 		(uuid "fb4902c3-085f-431c-99b5-f0136ccf44d1")
+	)
+	(wire
+		(pts
+			(xy 57.15 27.94) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8619b9-47fc-49cb-815c-6fee56cee129")
 	)
 	(wire
 		(pts
@@ -15263,6 +15543,28 @@
 			)
 		)
 	)
+	(global_label "VSS"
+		(shape input)
+		(at 52.07 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42c5a197-7922-42ac-9a08-298255f852eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.5772 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DVDD"
 		(shape input)
 		(at 105.41 207.01 270)
@@ -15430,6 +15732,28 @@
 		(uuid "51f2b5a7-08cc-440d-a0a6-1ed288875582")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.1904 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO Inconnu"
+		(shape input)
+		(at 57.15 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "523551f9-802b-4074-ae5c-20fa5da84f01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.0165 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19253,6 +19577,134 @@
 			(project "motherboard"
 				(path "/d59e4acd-18c6-4b35-a924-8f0ac7af2f47"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 57.15 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "283017c1-90c9-450f-8518-3a65195ccb3b")
+		(property "Reference" "R23"
+			(at 59.69 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 54.61 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 54.61 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 54.61 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 54.61 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 59.69 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78ebd9e5-0ece-415b-b9d0-1896f0b7cd12")
+		)
+		(pin "1"
+			(uuid "68e21c40-4302-4155-a308-05c652051a7d")
+		)
+		(instances
+			(project "motherboard"
+				(path "/d59e4acd-18c6-4b35-a924-8f0ac7af2f47"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -24334,6 +24786,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:20k_0603")
+		(at 54.61 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f70b49-aba8-40ee-9b90-01abf26cc382")
+		(property "Reference" "R24"
+			(at 54.61 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 54.61 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 54.61 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-09383"
+			(at 54.61 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21a4ff7f-5d27-4f1e-a020-7108699061d1")
+		)
+		(pin "2"
+			(uuid "582c7175-69e5-4f2b-b388-ac3bc7d57081")
+		)
+		(instances
+			(project "motherboard"
+				(path "/d59e4acd-18c6-4b35-a924-8f0ac7af2f47"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_4ms_Resistor:2.7k_0603")
 		(at 496.57 163.83 90)
 		(unit 1)
@@ -25798,7 +26327,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Resistor:10k_0402")
-		(at 132.08 113.03 270)
+		(at 144.78 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25807,7 +26336,7 @@
 		(fields_autoplaced yes)
 		(uuid "f24c762b-1f52-44bf-8f02-59cfed398618")
 		(property "Reference" "R21"
-			(at 132.08 106.68 90)
+			(at 144.78 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25815,7 +26344,7 @@
 			)
 		)
 		(property "Value" "10k_0402"
-			(at 132.08 110.49 90)
+			(at 144.78 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25824,7 +26353,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.38 110.49 0)
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25834,7 +26363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 113.03 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25843,7 +26372,7 @@
 			)
 		)
 		(property "Description" "10k, 1%, 1/16W, 0603"
-			(at 132.08 113.03 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25852,7 +26381,7 @@
 			)
 		)
 		(property "Specifications" "10k, 1%, 1/10W, 0402"
-			(at 124.206 110.49 0)
+			(at 136.906 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25862,7 +26391,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 122.682 110.49 0)
+			(at 135.382 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25872,7 +26401,7 @@
 			)
 		)
 		(property "Part Number" "RT0402FRE0710KL"
-			(at 121.158 110.49 0)
+			(at 133.858 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25882,7 +26411,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 132.08 109.22 90)
+			(at 144.78 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25890,7 +26419,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Yageo"
-			(at 132.08 113.03 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25899,7 +26428,7 @@
 			)
 		)
 		(property "Part Number 2" "RT0402DRE0710KL"
-			(at 132.08 113.03 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
